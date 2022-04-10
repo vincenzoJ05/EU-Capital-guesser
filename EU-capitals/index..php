@@ -71,10 +71,10 @@
         if ($isIncorrect || $isCorrect){
             
         if ($isCorrect){
-            echo "Het antwoord ".$_POST['capital']." is <b class='text-success'> juist!</b>";
+            echo "The answer ".$_POST['capital']." is <b class='text-success'> correct!</b>";
         }
         else{
-            echo "Het antwoord ".$_POST['capital']." is <b class='text-danger'> onjuist!</b>";
+            echo "The answer ".$_POST['capital']." is <b class='text-danger'> incorrect!</b>";
         }
         }
         ?>
