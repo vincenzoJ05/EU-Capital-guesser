@@ -1,6 +1,6 @@
 <?php 
     session_start();
     if(session_destroy()){
-        header("location: eindopdracht-vincenzo.php");
+        header("location: index.php");
     }
 ?>
