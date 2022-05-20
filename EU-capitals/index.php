@@ -54,7 +54,7 @@
                             <option name="capital"><?php echo $capital; ?></option>;
                         <?php } ?>
                     </select>
-                    <a style="margin-left:1%;" href="reset.php"><button class="btn btn-primary" type="button" name="reset"><i class="fa-solid fa-arrows-rotate"></i></button></a>
+                    <a style="margin-left:1%;" href="reset.php"><button class="btn btn-primary" type="button" name="reset">Reset<i class="fa-solid fa-arrows-rotate"></i></button></a>
                 </div>
                 <input type="hidden" name="correctAnswer" value="<?php echo $correctAnswer; ?>">
                 <br>
